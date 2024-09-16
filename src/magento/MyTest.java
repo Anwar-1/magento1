@@ -84,7 +84,7 @@ public class MyTest {
 	        driver.navigate().back();
 	        Thread.sleep(2000);
 
-	        // بعد العودة، قم بتحديث قائمة العناصر إذا احتجت
+	      
 	        items = driver.findElements(By.cssSelector(".item.product.product-item a.product-item-link"));
 	    }
 	    
